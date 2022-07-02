@@ -1,4 +1,7 @@
-source "./operators.sh"
+filelocal="$(pwd)/operators.sh"
+
+source "$filelocal"
+
 
 calc()
 {
